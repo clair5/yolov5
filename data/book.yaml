@@ -15,11 +15,8 @@ test: C:/Users/HUSTAR15/Desktop/book/test/images  # 20288 of 40670 images, submi
 
 # Classes
 names:
-  0: Barcode
-  1: Notch
-  2: Ripped
-  3: Spot
-  4: Tag
-  5: Wornout
-
+  0: notch
+  1: ripped
+  2: spot
+  3: wornout
   

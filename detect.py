@@ -50,8 +50,8 @@ from utils.torch_utils import select_device, smart_inference_mode
 @smart_inference_mode()
 def run(
         weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
-        source=ROOT / 'data/images',  # file/dir/URL/glob, 0 for webcam
-        data=ROOT / 'data/coco128.yaml',  # dataset.yaml path
+        source=ROOT / 'C:/Users/HUSTAR15/Desktop/book/train/images',  # file/dir/URL/glob, 0 for webcam
+        data=ROOT / 'data/book.yaml',  # dataset.yaml path
         imgsz=(640, 640),  # inference size (height, width)
         conf_thres=0.25,  # confidence threshold
         iou_thres=0.45,  # NMS IOU threshold
